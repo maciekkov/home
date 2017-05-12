@@ -1,0 +1,98 @@
+# depslib dependency file v1.0
+1494456514 source:d:\c++\iqhome_3.0\main.cpp
+	<iostream>
+	"ControlSystem.h"
+	<memory>
+
+1494541765 d:\c++\iqhome_3.0\include\controlsystem.h
+	<iostream>
+	<thread>
+	"iThread.h"
+	"MainMenu.h"
+	<memory>
+
+1494528046 d:\c++\iqhome_3.0\include\mainmenu.h
+	<iostream>
+	<vector>
+	<string>
+	"SubMenu.h"
+	"SensorContainer.h"
+	"windows.h"
+	"SensorContainer.h"
+	<fstream>
+
+1494463050 d:\c++\iqhome_3.0\include\ithread.h
+	<memory>
+	"Log.h"
+	"SensorContainer.h"
+	<windows.h>
+
+1494536318 source:d:\c++\iqhome_3.0\src\controlsystem.cpp
+	"ControlSystem.h"
+
+1494536202 source:d:\c++\iqhome_3.0\src\ithread.cpp
+	"iThread.h"
+
+1494541103 source:d:\c++\iqhome_3.0\src\mainmenu.cpp
+	"MainMenu.h"
+	<limits>
+
+1494441240 source:d:\c++\iqhome_3.0\src\sensor.cpp
+	"Sensor.h"
+	<fstream>
+
+1494463811 d:\c++\iqhome_3.0\include\sensor.h
+	<iostream>
+	<string>
+	"Log.h"
+	<memory>
+
+1494438964 d:\c++\iqhome_3.0\include\log.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<ctime>
+
+1494463409 source:d:\c++\iqhome_3.0\src\sensorcontainer.cpp
+	"SensorContainer.h"
+
+1494541228 d:\c++\iqhome_3.0\include\sensorcontainer.h
+	"Sensor.h"
+	<iostream>
+	<map>
+	<string>
+	<vector>
+	<memory>
+
+1494450727 source:d:\c++\iqhome_3.0\src\log.cpp
+	"Log.h"
+
+1494449805 source:d:\c++\iqhome_3.0\src\outstream.cpp
+	"OutStream.h"
+
+1494450014 d:\c++\iqhome_3.0\include\outstream.h
+	<iostream>
+	<fstream>
+	<mutex>
+
+1494528522 d:\c++\iqhome_3.0\include\submenu.h
+	<iostream>
+	<vector>
+	"Connector.h"
+	<memory>
+	"SensorContainer.h"
+
+1494541591 d:\c++\iqhome_3.0\include\connector.h
+	<iostream>
+	<vector>
+	<string>
+	"SensorContainer.h"
+
+1494541593 source:d:\c++\iqhome_3.0\src\connector.cpp
+	"Connector.h"
+
+1494536216 source:d:\c++\iqhome_3.0\src\submenu.cpp
+	"SubMenu.h"
+	<windows.h>
+	<limits>
+
